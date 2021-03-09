@@ -1,0 +1,13 @@
+<section class="user-formular">
+  <h1>Hier registrieren</h1>
+  <form action="/user" method="post">
+    <input type="text" name="vorname" id="vorname" placeholder="Vorname">
+    <input type="text" name="nachname" id="nachname" placeholder="Nachname">
+    <input type="text" name="wohnort" id="wohnort" placeholder="Wohnort">
+    <input type="text" name="beruf" id="beruf" placeholder="Beruf">
+    <input type="email" name="email" id="email" placeholder="E-Mail">
+    <input type="text" name="passwort" id="passwort" placeholder="Passwort">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button>Registrieren</button>
+  </form>
+</section>

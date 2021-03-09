@@ -1,0 +1,15 @@
+<section class="new-job">
+  <h1>Dein Eintrag wurde gespeichert</h1>
+  <ul>
+    <li>
+      Firma: {{#if firma}}{{firma}}{{else}}unbekannter Arbeitgeber{{/if}}
+    </li>
+    <li>
+      Position: {{#if position}}{{position}}{{else}}nicht angegeben{{/if}}
+    </li>
+    <li>
+      Von-Bis: {{von}} - {{#if bis}}{{bis}}{{else}}gegenwärtig{{/if}}
+    </li>
+  </ul>
+  <p>Zurück zum <a href="/formular">Formular</a></p>
+</section>

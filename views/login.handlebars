@@ -1,0 +1,10 @@
+<section class="login-formular">
+  <h1>Hier einloggen</h1>
+  <form action="/login" method="POST">
+    <input type="email" name="email" id="email-login" placeholder="E-Mail">
+    <input type="text" name="passwort" id="passwort-login" placeholder="Passwort">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button>Einloggen</button>
+  
+  </form>
+</section>

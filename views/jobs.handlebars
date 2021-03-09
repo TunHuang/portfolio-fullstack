@@ -1,0 +1,10 @@
+<section class="jobs">
+  <h1>Meine bisherigen Stationen:</h1>
+  <ul>
+    {{#each jobs}}
+    <li id="{{_id}}">{{position}} bei {{firma}} von {{von}} bis {{#if bis}}{{bis}}{{else}}gegenwärtig{{/if}}</li>
+    {{else}}
+    <li>Keine Einträge</li>
+    {{/each}}
+  </ul>
+</section>

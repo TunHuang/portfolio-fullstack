@@ -1,0 +1,132 @@
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: fuchsia;
+}
+
+/* Navbar */
+
+nav {
+  margin-bottom: 36px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 22px;
+  height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  font-size: 1.3em;
+}
+
+/* h1 Titel oben */
+
+section > h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* Formulare */
+
+.job-formular form,
+.login-formular form,
+.user-formular form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.job-formular form {
+  height: 600px;
+}
+
+.login-formular form {
+  height: 300px;
+}
+
+.user-formular form {
+  height: 650px;
+}
+
+.job-formular input,
+.login-formular input,
+.user-formular input {
+  height: 40px;
+  width: 500px;
+  background-color: black;
+  padding: 14px;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 1.3em;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.job-formular button,
+.login-formular button,
+.user-formular button {
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+  font-style: italic;
+  border: 2px rgb(136, 136, 136) solid;
+  cursor: pointer;
+  font-family: 'Gloria Hallelujah', cursive;
+  border-radius: 10px;
+  padding: 10px 60px 15px;
+}
+
+/* Startseite */
+
+#start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  flex-direction: column;
+  font-size: 2.4em;
+}
+
+#start pre {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 0;
+}
+
+/* Listen */
+
+.jobs ul,
+.new-user ul,
+.new-job ul {
+  list-style-type: circle;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 1.6em;
+  max-width: 800px;
+}
+
+.jobs li,
+.new-user li,
+.new-job li {
+  /* border-bottom: 2px rgb(136, 136, 136) solid; */
+  padding: 30px 0 10px 0;
+}
+
+.new-job p {
+  text-align: center;
+}
